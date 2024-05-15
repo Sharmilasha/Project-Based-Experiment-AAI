@@ -5,7 +5,10 @@
 <H3>Objective:<H3>
 Type your objective based on the question
 <H3>Program:</H3>
+
+    
 ```
+
 import pandas as pd
 from textblob import TextBlob
 
@@ -43,10 +46,14 @@ for sentiment, count in sentiment_counts.items():
 
 print(f"Occurrences of '{given_name}': {name_occurrences}")
 
-```
-<H3>Output:</H3>
+````
+
+
+
+## OUTPUT
 
 ![image](https://github.com/Sharmilasha/Project-Based-Experiment-AAI/assets/94506182/2726a7eb-cea7-4c49-abe7-359e0b1407da)
+
 
 <H3>Inference:</H3>
 Write about your learning experience out of this project. (What you have learned)
